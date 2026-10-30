@@ -2,7 +2,9 @@
 
 ## Current state
 
-Ten independent local Git repositories are prepared. Nine websites build successfully from one Markdown source. GitHub upload, Pages activation and DNS are deliberately deferred until the user supplies the final GitHub access method and owner.
+Published on 2026-10-30 under https://github.com/datubu. All ten repositories are public. All nine websites are deployed with GitHub Actions and GitHub Pages, bound to the domains below, with HTTPS enforcement enabled. Public HTML and data.json responses were verified on every domain; cross-site links use the custom domains.
+
+The sole content source is https://github.com/datubu/human-journeys. The complete first example is https://seek.datubu.com/story/xuanzang/.
 
 ## Repositories and domains
 
@@ -33,6 +35,8 @@ Ten independent local Git repositories are prepared. Nine websites build success
 The content repository checks bilingual pairs, IDs, source references, chapter order and geometry when a PR or main-branch update runs. After a successful main push, it can dispatch builds to all nine website repositories with the exact content commit SHA.
 
 Cross-repository dispatch requires PAGES_DISPATCH_TOKEN in the content repository's Actions secrets, scoped to dispatch access on the nine website repositories. A GitHub App installation token or appropriately scoped token can supply it. The normal GITHUB_TOKEN is scoped to its own repository. With no dispatch credential, content checks still run and clearly report that site workflows should be triggered manually. Do not put a token in Markdown, site.config.json, Git remotes or committed workflow values.
+
+Current deployment: no cross-repository dispatch credential is stored. After a content update passes checks, manually run the Deploy workflow in each affected website repository. Ordinary website pushes deploy that website automatically. CUSTOM_DOMAINS_ACTIVE is already true on all nine website repositories.
 
 Website workflows accept CONTENT_REF and ENGINE_REF repository variables to pin content and shared code versions. On every run, the resolved Git commit SHAs are recorded in build-info.json. Initial defaults are main; release tags or full SHAs can be pinned when publishing a release. Changes to shared code require a new build of each affected website (manual workflow_dispatch or a dispatch batch).
 

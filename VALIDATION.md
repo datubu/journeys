@@ -1,6 +1,16 @@
-# Local validation
+# Validation
 
-Validation performed for the initial framework, 2026-10-30. GitHub Actions execution, public Pages URLs, DNS bindings and HTTPS certificates are not yet tested because publication is deferred.
+Validation performed for the initial framework and publication, 2026-10-30.
+
+## Published deployment
+
+- Ten public repositories under https://github.com/datubu, each with its local commit history uploaded.
+- Successful content validation workflow and successful Pages deployment workflows for all nine websites.
+- Nine custom domains bound to their corresponding repositories, with approved certificates and HTTPS enforcement enabled.
+- HTTPS GET responses for every site's homepage and data.json returned HTTP 200.
+- Each published data.json identified the correct station, used custom-domain network links and included the 11-chapter Xuanzang route.
+- The full example is https://seek.datubu.com/story/xuanzang/.
+- Cross-repository content dispatch remains unconfigured; content changes require manually triggering the affected website workflows.
 
 ## Automated
 
