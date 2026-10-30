@@ -1,0 +1,20 @@
+{
+  "name": "datubu-journeys",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:all": "node scripts/build-all.mjs",
+    "check": "node scripts/verify.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test scripts/content-pipeline.test.mjs"
+  },
+  "dependencies": {
+    "marked": "15.0.12",
+    "yaml": "2.8.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

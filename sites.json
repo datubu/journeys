@@ -1,0 +1,11 @@
+[
+ {"id":"main","repo":"journeys","domain":"datubu.com"},
+ {"id":"move","repo":"migration","domain":"move.datubu.com"},
+ {"id":"war","repo":"wartime","domain":"war.datubu.com"},
+ {"id":"road","repo":"ancient-roads","domain":"road.datubu.com"},
+ {"id":"seek","repo":"pilgrimage","domain":"seek.datubu.com"},
+ {"id":"quest","repo":"exploration","domain":"quest.datubu.com"},
+ {"id":"map","repo":"historic-atlas","domain":"map.datubu.com"},
+ {"id":"walk","repo":"heritage-walks","domain":"walk.datubu.com"},
+ {"id":"docs","repo":"journey-archives","domain":"docs.datubu.com"}
+]
