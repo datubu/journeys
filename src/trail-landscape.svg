@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 430" fill="none">
+ <defs><linearGradient id="sky" x2="0" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#345e59"/><stop offset="1" stop-color="#91ad8a"/></linearGradient><linearGradient id="hills" x2="0" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#477970"/><stop offset="1" stop-color="#264b43"/></linearGradient></defs>
+ <path fill="url(#sky)" d="M0 0h750v430H0z"/><circle cx="590" cy="104" r="42" fill="#efd4a0"/>
+ <circle cx="590" cy="104" r="55" stroke="#efdbb5" stroke-opacity=".15" stroke-dasharray="3 7"/>
+ <path d="m0 256 126-143 58 82 80-127 119 157 69-99 100 137 50-79 148 86v160H0Z" fill="#b0bda0"/>
+ <path d="m80 165 46-52 39 56-40-17Zm130-11 54-86 52 69-53-18Zm204 27 38-55 41 56-39-26Z" fill="#eee6ca"/>
+ <path d="M0 267c97-44 122 19 230 12 124-8 123-82 245-41 78 26 133 17 275-5v197H0Z" fill="#6c9279"/>
+ <path d="M0 344c113-106 186-55 268-35 132 32 201-41 282-28 95 15 142 60 200 33v116H0Z" fill="url(#hills)"/>
+ <path d="M0 402c140-32 237 31 332-8 82-34 185-56 418-1v37H0Z" fill="#24483f"/>
+ <path d="M246 430c123-15 210-53 172-70s-117-19-72-42 82-30 70-42" stroke="#edd5a1" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 8" opacity=".9"/>
+ <path d="M402 282v-31m0 0 17 6-17 7" stroke="#f0d3a0" stroke-width="2" stroke-linejoin="round"/><path d="M403 253v9l15-5Z" fill="#e7ac7d"/>
+ <path d="m226 341 5-22 11-4 7 16m-17 10-5 20m17-22 8 21m-20-44-7 12-9 2m28-13 7 8 10-1" stroke="#f3dfb5" stroke-width="4" stroke-linecap="round"/>
+ <path d="m228 320-9-1-3 19 10 2Z" fill="#e4a775"/><circle cx="237" cy="307" r="7" fill="#eed1a2"/><path d="m226 305 10-7 13 9Z" fill="#c4d5b0"/><path d="m264 324 1 37" stroke="#d2be8f" stroke-width="2"/>
+ <path d="m91 284 5-13 5 13m-15 12 10-18 10 18m552 43 6-16 6 16m-18 14 12-22 12 22" stroke="#b1c39c" stroke-opacity=".5" stroke-width="2"/>
+ <path d="m434 70 6-6 5 6m9-4 5-5 5 5" stroke="#d8dfbf" stroke-width="1.5" stroke-linecap="round"/><path d="m52 104 3-8 3 8-3 8Zm625 40 2-6 2 6-2 6Z" fill="#ecdfb7"/>
+</svg>
