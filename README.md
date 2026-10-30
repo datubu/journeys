@@ -33,7 +33,7 @@ Markdown + YAML → bilingual and reference validation → compiled content JSON
 
 ## Publication
 
-Upload is deferred at the user's request. No remote, GitHub Pages site or DNS binding has been created. See [DEPLOYMENT.md](DEPLOYMENT.md) for the prepared upload flow and domain mapping. Dependencies are lockfile-pinned. `build-info.json` records the exact resolved content and engine commits on GitHub Actions builds.
+GitHub owner: datubu. Repositories and Pages are managed under https://github.com/datubu. Domain activation is separate from code upload and requires DNS readiness. See [DEPLOYMENT.md](DEPLOYMENT.md) for the prepared upload flow and domain mapping. Dependencies are lockfile-pinned. `build-info.json` records the exact resolved content and engine commits on GitHub Actions builds.
 
 ## Licenses
 
